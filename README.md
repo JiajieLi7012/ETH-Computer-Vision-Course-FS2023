@@ -1,6 +1,6 @@
 # ETH-Computer-Vision-Course-FS2023
 
-This repo contains all my code and reports to the six mini-projects of the FS2023 Computer Vision Course at ETH.
+This repo contains all my code and reports to the six mini-projects of the FS2023 Computer Vision Course at ETH. FYI, I obtained full marks on all these projects.
 
 ----
 
@@ -31,11 +31,15 @@ This assignment consists of two parts:
 
 There are two subtasks in this assignment. First, we need to implment a mean-shift algorithm for image segmentation. Second, we need to complete an implmentation for a simplified version of SegNet.
 
+![Mean Shift Segmentation Result with bandwidth 5](./imgs/result_b5.png)
+
 ---
 
 ## Assignment 5
 
 This assignment is about implementing the Condensation Tracker.
+
+![Condensation Tracker Result on Video 2](./imgs/video2_constant_motion_successful.png)
 
 ---
 
@@ -45,4 +49,6 @@ This mini-project is composed of two parts:
 - implement the Structure from Motion algorithm to produce a reconstruction of a small scene.
 - implement the RANSAC (RANdom SAmple Consensus) algorithm for robust model fitting.
 
+![SfM Result](./imgs/detailed_SFM.png)
+![RANSAC Result](./imgs/ransac.png)
 
